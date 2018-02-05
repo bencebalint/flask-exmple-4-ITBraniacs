@@ -20,8 +20,7 @@ class MainRoute(MethodView):
         return Response(json.dumps(resp))
 
     def get(self) -> Response:
-        return redirect(url_for('/<string:element>'))
-        # return self._generate_response()
+        return redirect(url_for('/homepage'))
 
     def post(self) -> Response:
         return self._generate_response()
