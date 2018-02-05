@@ -3,6 +3,7 @@ from flask import Flask
 from routes.add_route import AddPersonRoute
 from routes.list_route import ListRoute
 from routes.main_route import MainRoute
+from routes.web_route import WebRoute
 
 
 def main():
@@ -11,7 +12,8 @@ def main():
     routes = [
         MainRoute(),
         ListRoute(),
-        AddPersonRoute()
+        AddPersonRoute(),
+        WebRoute()
     ]
 
     for route in routes:
