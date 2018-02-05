@@ -1,0 +1,15 @@
+.idea
+venv
+school/elements/__pycache__/
+school/element/__pycache__
+school/element/__pycache__/student.cpython-36.pyc
+school/element/__pycache__/person.cpython-36.pyc
+school/element/__pycache__/__init__.cpython-36.pyc
+school/elements/__pycache__
+school/elements/__pycache__/school_list.cpython-36.pyc
+school/elements/__pycache__/__init__.cpython-36.pyc
+school/routes/__pycache__
+school/routes/__pycache__/add_route.cpython-36.pyc
+school/routes/__pycache__/main_route.cpython-36.pyc
+school/routes/__pycache__/list_route.cpython-36.pyc
+school/routes/__pycache__/__init__.cpython-36.pyc
