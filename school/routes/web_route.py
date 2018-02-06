@@ -18,6 +18,8 @@ class WebRoute(MainRoute):
             location = "templates/script/"
         elif element.__contains__("css"):
             location = "templates/css/"
+        elif element.__contains__("ico"):
+            location = "templates/pictures/"
 
         return send_file(location + element)
 
